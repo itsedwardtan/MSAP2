@@ -6,7 +6,7 @@
 
     <ContentPage.Content>
         <StackLayout Spacing="0" x:Name="layout">
-            <Button Text="StackLayout" VerticalOptions="Start"
+            <Button Text="StackLayout" VerticalOptions="Start" Clicked="OnButtonClicked"
         HorizontalOptions="FillAndExpand" />
             <BoxView Color="#FFF724" VerticalOptions="FillAndExpand"
         HorizontalOptions="FillAndExpand" />
@@ -16,6 +16,4 @@
   HorizontalOptions="FillAndExpand" />
         </StackLayout>
     </ContentPage.Content>
-</ContentPage>
-
 </ContentPage>
